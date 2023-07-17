@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+.header{
+    padding: 15px;
+    background-color: rgba(245, 189, 6, 0.973);
+    text-align: center; 
+}
+
+.logo, .menu{
+    padding: 10px;
+}
+
+.laranja{
+    color: orange;
+}
+
+.branco{
+    color: white;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h3{
+    background-color: grey;
+    padding: 5px;
+}
+
+.data{
+    font-size: 0.8em;
+    display: block;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header a:link, .header a:visited{
+    color: white;
+    padding: 10px;
+}
+
+.header a:hover{
+    color:rgba(245, 189, 6, 0.973);
+    background: white;
+    text-decoration: none;
+}
+
+.container a:link, a:visited{
+    color: orange;
+    margin-top: 20px;
+}
+
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#postagens{
+    width: 660px;
+    float: left;
+
+}
+
+.postagem{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.caixa-lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
